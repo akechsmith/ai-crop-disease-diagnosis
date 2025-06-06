@@ -2,9 +2,6 @@
 
 Empowering smallholder farmers with an AI mobile app to detect and diagnose crop diseases from leaf images — offline and in real-time.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-[![Build Status](https://github.com/your-username/ai-crop-disease-diagnosis/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/ai-crop-disease-diagnosis/actions)
-
 ---
 
 ##  Overview
