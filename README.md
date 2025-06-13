@@ -85,8 +85,8 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ##  Roadmap
 
-See our [ROADMAP](docs/ROADMAP.md) for project phases and progress.
-![Roadmap](docs/ROADMAP.png)
+See our [ROADMAP](docs/Roadmap/ROADMAP.md) for project phases and progress.
+![Roadmap](docs/Roadmap/ROADMAP.png)
 
 ##  License
 
