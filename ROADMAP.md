@@ -1,7 +1,7 @@
 #  Project Roadmap
 Industrial Attachment – JHUB Africa (May – August, 2025)
 
-This roadmap outlines weekly milestones during the attachment project focused on building AI-powered crop disease diagnosis system.
+> This roadmap outlines weekly milestones during the attachment project focused on building AI-powered crop disease diagnosis system.
 
 ---
 
