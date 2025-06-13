@@ -77,15 +77,16 @@ CropAI is an AI-powered crop disease diagnosis system specifically designed for 
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-[Akech Atem](https://github.com/akechsmith)
-[Meshack Otieno Ouma](https://github.com/Meshackoo)
-[Gatmach Yuon Nyuon](https://github.com/Gatmach)
-[Methusella Nyongesa](https://github.com/OfficialMNM)
-[Collins Omollo](https://github.com/loskiii)
+- [Akech Atem](https://github.com/akechsmith)
+- [Meshack Otieno Ouma](https://github.com/Meshackoo)
+- [Gatmach Yuol Nyuon](https://github.com/Gatmach)
+- [Methusella Nyongesa](https://github.com/OfficialMNM)
+- [Collins Omollo](https://github.com/loskiii)
 
 ##  Roadmap
-see the [ROADMAP](RAODMAP) file for details.
 
+See our [ROADMAP](docs/ROADMAP.md) for project phases and progress.
+![Roadmap](docs/ROADMAP.png)
 
 ##  License
 
