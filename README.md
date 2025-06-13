@@ -84,11 +84,11 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - [Collins Omollo](https://github.com/loskiii)
 
 ##  Roadmap
+<img src="docs/Roadmap/ROADMAP.png" alt="Roadmap" width="300"/> 
 
 See our [ROADMAP](docs/Roadmap/ROADMAP.md) for project phases and progress.
-<img src="docs/Roadmap/ROADMAP.png" alt="Roadmap" width="600"/>
-![Roadmap](docs/Roadmap/ROADMAP.png)
 
+  
 ##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
