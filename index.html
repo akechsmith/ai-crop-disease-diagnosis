@@ -10,21 +10,28 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                🌱 CropAI
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <i class="fas fa-seedling"></i> CropAI
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+</nav>
+
+
 
     <!-- Hero Section -->
     <section id="home" class="hero">
@@ -36,43 +43,43 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services scroll-reveal">
-        <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">📱</div>
-                    <h3>Mobile Disease Detection</h3>
-                    <p>Instant crop disease diagnosis using smartphone cameras with AI-powered image recognition for maize, tomatoes, and beans.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🔬</div>
-                    <h3>Offline Diagnosis</h3>
-                    <p>TensorFlow Lite integration enables disease detection even without internet connectivity, perfect for rural farming areas.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📊</div>
-                    <h3>Analytics & Insights</h3>
-                    <p>Comprehensive analytics dashboard tracking disease patterns, treatment effectiveness, and crop health trends.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🌐</div>
-                    <h3>Multi-language Support</h3>
-                    <p>User-friendly interface available in English and Swahili, designed specifically for Kenyan farmers.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">⚡</div>
-                    <h3>Real-time API</h3>
-                    <p>RESTful API backend providing fast, accurate disease predictions with cloud storage and analytics.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🎯</div>
-                    <h3>Treatment Recommendations</h3>
-                    <p>Actionable treatment advice and prevention strategies tailored to specific diseases and local conditions.</p>
-                </div>
+<section id="services" class="services scroll-reveal">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h3>Mobile Disease Detection</h3>
+                <p>Instant crop disease diagnosis using smartphone cameras with AI-powered image recognition for maize, tomatoes, and beans.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-microscope"></i></div>
+                <h3>Offline Diagnosis</h3>
+                <p>TensorFlow Lite integration enables disease detection even without internet connectivity, perfect for rural farming areas.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Analytics & Insights</h3>
+                <p>Comprehensive analytics dashboard tracking disease patterns, treatment effectiveness, and crop health trends.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-language"></i></div>
+                <h3>Multi-language Support</h3>
+                <p>User-friendly interface available in English and Swahili, designed specifically for Kenyan farmers.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                <h3>Real-time API</h3>
+                <p>RESTful API backend providing fast, accurate disease predictions with cloud storage and analytics.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-crosshairs"></i></div>
+                <h3>Treatment Recommendations</h3>
+                <p>Actionable treatment advice and prevention strategies tailored to specific diseases and local conditions.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Events Section -->
     <section id="events" class="events scroll-reveal">
@@ -117,37 +124,38 @@
     </section>
 
     <!-- News Section -->
-    <section id="news" class="news scroll-reveal">
-        <div class="container">
-            <h2 class="section-title">Latest News</h2>
-            <div class="news-grid">
-                <div class="news-card">
-                    <div class="news-image">🚀</div>
-                    <div class="news-content">
-                        <div class="news-meta">June 5, 2025</div>
-                        <h3>Project Development Milestone</h3>
-                        <p>Successfully completed the initial CNN model training phase with 92% accuracy on disease classification for maize, tomatoes, and beans.</p>
-                    </div>
+<section id="news" class="news scroll-reveal">
+    <div class="container">
+        <h2 class="section-title">Latest News</h2>
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-image"><i class="fas fa-rocket"></i></div>
+                <div class="news-content">
+                    <div class="news-meta">June 5, 2025</div>
+                    <h3>Project Development Milestone</h3>
+                    <p>Successfully completed the initial CNN model training phase with 92% accuracy on disease classification for maize, tomatoes, and beans.</p>
                 </div>
-                <div class="news-card">
-                    <div class="news-image">🤝</div>
-                    <div class="news-content">
-                        <div class="news-meta">May 28, 2025</div>
-                        <h3>Partnership with JHUB Africa</h3>
-                        <p>Proud to announce our collaboration with JHUB Africa for mentorship and technical guidance throughout the project development.</p>
-                    </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image"><i class="fas fa-handshake"></i></div>
+                <div class="news-content">
+                    <div class="news-meta">May 28, 2025</div>
+                    <h3>Partnership with JHUB Africa</h3>
+                    <p>Proud to announce our collaboration with JHUB Africa for mentorship and technical guidance throughout the project development.</p>
                 </div>
-                <div class="news-card">
-                    <div class="news-image">📊</div>
-                    <div class="news-content">
-                        <div class="news-meta">May 20, 2025</div>
-                        <h3>Dataset Collection Complete</h3>
-                        <p>Finished compiling a comprehensive dataset of over 10,000 crop disease images, combining PlantVillage data with locally verified samples.</p>
-                    </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image"><i class="fas fa-chart-bar"></i></div>
+                <div class="news-content">
+                    <div class="news-meta">May 20, 2025</div>
+                    <h3>Dataset Collection Complete</h3>
+                    <p>Finished compiling a comprehensive dataset of over 10,000 crop disease images, combining PlantVillage data with locally verified samples.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <section id="partnership" class="partnership-section">
         <div class="container">
@@ -231,7 +239,7 @@
                 <div class="team-avatar">
                    <img src="images/yuol.jpg" alt="Gatmach Yuol Nyuon">
                 </div>
-                <h3>Aketch Atem Dau</h3>
+                <h3>Akech Atem Dau</h3>
                 <div class="team-role">Agricultural Consultant</div>
                 <p>Agricultural extension expert providing domain knowledge and farmer outreach coordination.</p>
                 <div class="team-links">
@@ -292,5 +300,14 @@
 
 
     <script src="index.js"></script>
+    <script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
 </body>
 </html>

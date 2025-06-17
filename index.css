@@ -73,6 +73,38 @@ body {
 .nav-links a:hover::after {
     width: 100%;
 }
+/* Hamburger Menu (Hidden on Desktop) */
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #2d5a27;
+}
+
+/* Mobile Responsive Navigation */
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.98);
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 2rem 0;
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
 
 /* Hero Section */
 .hero {
