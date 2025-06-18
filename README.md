@@ -87,25 +87,15 @@ We trained a Convolutional Neural Network (CNN) model for crop disease classific
 - **Final Training Loss**: 0.08
 - **Final Validation Loss**: ~0.17
 - **Saved Format**: `.h5` (HDF5)  
-<details>
-  <img src="docs/training_outputs/log.png" alt="Training Log" width="700"/>
-</details>
 
----
+  <img src="docs/training_outputs/log.png" alt="Training Log" width="700"/>
+
 
 ###  Accuracy & Loss Curves
 
 The following plots show the model’s training and validation accuracy and loss across epochs:
 
-<img src="docs/training/training_plots.png" alt="Training Plots" width="800"/>
-
----
-
-###  Downloads
-
-- [Download Trained Model (.h5)](https://drive.google.com/file/d/1Gtikd55PGkKTMKWYxN2lofBEmEdzX6WG/view?usp=drive_link)
-- [Access Dataset on Google Drive](https://drive.google.com/drive/folders/1pMhC_nmYbqcYjGW9vFz_xlsHnE0IjcWb?usp=drive_link)
-
+<img src="docs/training_outputs/training_plots.png" alt="Training Plots" width="800"/>
 
 ##  Contributors
 
