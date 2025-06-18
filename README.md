@@ -73,6 +73,40 @@ CropAI is an AI-powered crop disease diagnosis system specifically designed for 
                     └──────────────────────────┘
 ```
 
+##  Model Training & Performance
+
+We trained a Convolutional Neural Network (CNN) model for crop disease classification using labeled image data for maize, tomatoes, and beans. The model was trained using TensorFlow/Keras and achieved strong performance on both training and validation datasets.
+
+###  Training Summary
+
+- **Framework**: TensorFlow / Keras
+- **Model Type**: Convolutional Neural Network (CNN)
+- **Epochs**: 11
+- **Final Training Accuracy**: 96.1%
+- **Final Validation Accuracy**: ~94.3%
+- **Final Training Loss**: 0.08
+- **Final Validation Loss**: ~0.17
+- **Saved Format**: `.h5` (HDF5)  
+<details>
+  <img src="docs/training_outputs/log.png" alt="Training Log" width="700"/>
+</details>
+
+---
+
+###  Accuracy & Loss Curves
+
+The following plots show the model’s training and validation accuracy and loss across epochs:
+
+<img src="docs/training/training_plots.png" alt="Training Plots" width="800"/>
+
+---
+
+###  Downloads
+
+- [Download Trained Model (.h5)](https://drive.google.com/file/d/1Gtikd55PGkKTMKWYxN2lofBEmEdzX6WG/view?usp=drive_link)
+- [Access Dataset on Google Drive](https://drive.google.com/drive/folders/1pMhC_nmYbqcYjGW9vFz_xlsHnE0IjcWb?usp=drive_link)
+
+
 ##  Contributors
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
