@@ -14,10 +14,10 @@ Industrial Attachment – JHUB Africa (May – August, 2025)
 ---
 
 ####  Phase 2: Data Preprocessing & Augmentation (Week 3–4)
-- [ ] Normalize, label, and clean image data
-- [ ] Perform augmentation (OpenCV, Albumentations)
-- [ ] Split into training/validation sets
-- [ ] Prepare dataset for model training
+- [x] Normalize, label, and clean image data
+- [x] Perform augmentation (OpenCV, Albumentations)
+- [x] Split into training/validation sets
+- [x] Prepare dataset for model training
 
 ---
 
