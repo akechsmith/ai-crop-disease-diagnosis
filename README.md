@@ -26,7 +26,7 @@ CropAI is an AI-powered crop disease diagnosis system specifically designed for 
 - **Real-time Disease Detection**: Instant diagnosis using smartphone cameras
 - **Offline Functionality**: TensorFlow Lite models work without internet
 - **Multi-crop Support**: Maize, tomatoes, and beans disease detection
-- **High Accuracy**: 92%+ accuracy on disease classification
+- **High Accuracy**: 96%+ accuracy on disease classification
 - **Treatment Recommendations**: Actionable advice for disease management
 
 ###  Technology Stack
