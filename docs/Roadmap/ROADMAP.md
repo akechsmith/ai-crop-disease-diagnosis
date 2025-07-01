@@ -22,10 +22,10 @@ Industrial Attachment – JHUB Africa (May – August, 2025)
 ---
 
 ####  Phase 3: Model Training & Evaluation (Week 5–6)
-- [ ] Train MobileNetV2 on labeled data
-- [ ] Evaluate accuracy (target: ≥92%)
-- [ ] Convert model to TensorFlow Lite
-- [ ] Save weights and document results
+- [x] Train MobileNetV2 on labeled data
+- [x] Evaluate accuracy (target: ≥92%)
+- [x] Convert model to TensorFlow Lite
+- [x] Save weights and document results
 
 ---
 
