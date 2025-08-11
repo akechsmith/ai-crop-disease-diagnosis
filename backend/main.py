@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional
-from backend.firebase_config import db  # Firestore client
+from backend.firebase_config import db
 from datetime import datetime
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware

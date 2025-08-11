@@ -1,0 +1,34 @@
+# Git
+.git
+.gitignore
+
+# Node / Python caches
+node_modules
+__pycache__
+*.pyc
+
+# Logs
+*.log
+npm-debug.log
+yarn-error.log
+pip-log.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files / secrets
+.env
+.env.*
+secrets.json
+*.pem
+*.key
+
+# Build artifacts
+dist
+build
+.cache
+
+# Docker-specific
+docker-compose.override.yml
+.dockerignore
